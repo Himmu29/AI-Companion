@@ -18,10 +18,10 @@ interface CompanionsListProps{
     classNames?:string;
 }
 
-const ComapnionsList = ({title,companions,classNames}:CompanionsListProps) => {
+const CompanionsList = ({title,companions,classNames}:CompanionsListProps) => {
     return (
         <article className={cn( 'companion-list',classNames)}>
-            <h2 className='font-bold text-3xl'>Recent Submissions</h2>
+            <h2 className='font-bold text-3xl'>{title}</h2>
             <Table>
                 <TableHeader>
                     <TableRow>
@@ -87,4 +87,4 @@ const ComapnionsList = ({title,companions,classNames}:CompanionsListProps) => {
     )
 }
 
-export default ComapnionsList
+export default CompanionsList
