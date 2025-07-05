@@ -1,3 +1,4 @@
+export const dynamic = 'force-dynamic'; 
 import CompanionsList from '@/components/CompanionList'
 import CompanionCard from '@/components/CompanionCard'
 import Cta from '@/components/CTA'
